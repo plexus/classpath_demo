@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps {com.lambdaisland/classpath {:mvn/version "0.4.44"}}
+
+ :aliases
+ {:test {:extra-paths ["test" "env/test"]}
+  :dev  {:extra-paths ["env/dev"]}}}
